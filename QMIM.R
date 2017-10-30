@@ -1,0 +1,5 @@
+setwd("~/Dropbox/Quant Methods Data")
+finratio <- read.csv("FinancialRatio-12Oct.csv",header=TRUE,sep=",",dec=".",row.names = NULL)
+fundamdata <- read.csv("FundamentalData-12Oct.csv",header=TRUE,sep=",",dec=".",row.names = NULL)
+spconst <- read.csv("S&PConstituents.csv",header=TRUE,sep=",",dec=".",row.names = NULL)
+ret <- read.csv("S&PDailyData.csv",header=TRUE,sep=",",dec=".",row.names = NULL)
